@@ -156,13 +156,6 @@ header {
 	color: #1b1b1b;
 	margin-top: 33px;
 }
-
-.cart {
-  font-size:36px; 
-  margin-left: 50%; 
-  padding-top: 5px;
-}
-
 .categ p, .household-items p{
   cursor: pointer;
   color: #0088cc;
