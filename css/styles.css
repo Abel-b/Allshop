@@ -153,7 +153,8 @@ header {
 	font-size: 30px;
 	font-weight: bolder;
 	color: #1b1b1b;
-	margin-top: 33px;
+  margin-top: 33px;
+  text-align: center;
 }
 .footer
 {
@@ -294,7 +295,7 @@ header {
 }
 .contact_button:hover span
 {
-	color: #FFFFFF;
+	color: rgb(168, 165, 165);
 }
 .contact_info_section:not(:first-child)
 {
@@ -331,7 +332,27 @@ h5{
 h2{
   font-weight: bold;
 }
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.icon-bar a:hover {
+  background-color: #d8d8d8;
+}
 
-
-
+.icon-icon {
+  background: #000000;
+  color: white;
+}
 
