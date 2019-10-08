@@ -95,16 +95,20 @@ header {
       width: 100%;
       height: 100vh;
   }
-
   .lead, .lead1, .lead2, .household-items1, .bed, .window, .linen {
     display: none;
   }
   .icon_box_title {
     cursor: pointer;
   }
-
+  .categ {
+    animation: move 4000ms linear infinite;
+  }
+.newest {
+  animation: animate1 16s ease-in-out infinite;
+}
   @keyframes animate{
-    0%, 100%{
+    0%, 100%{ 
         background-image: url('../images/WhatsApp\ Image\ 2019-10-07\ at\ 1.35.07\ PM.jpeg');
         height: 800px;
         width: 100%;
@@ -126,6 +130,28 @@ header {
       background-size: cover;
     }
 }
+@keyframes move {
+  0%, 100% { transform: translateX(0px); }
+  50% { transform: translateX(50px); }
+};
+@keyframes animate1 {
+  0%, 100%{ 
+      background-image: url('../images/Household/newest.jpg');
+      height: 800px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover; 
+  }
+  50%{
+    background-image: url('../images/electronics/iphone11.png');
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
 .icon_boxes
 {
 	width: 100%;
