@@ -2,22 +2,18 @@
 <!doctype html>
 <html lang="en">
   <head>
-    
-
-    <title>Allshop</title>
-
-
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <title>Allshop™</title>
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="css/products.css" rel="stylesheet">
+    <script src="./js/script.js"></script>
   </head>
-
   <body class="bg-light">
   <div class="container-fluid">
     <header>
-      <h1 style="font-size: 50px" id="footer_header">Allshop</h1>
+      <h1 style="font-size: 50px" id="footer_header">Allshop™</h1>
     </header>
     <div class="topnav">
       <a href="index.html">Home</a>
@@ -42,27 +38,22 @@
       </div>
     </div>
   </div>
-
     <div class="container">
       <div class="py-5 text-center">
-        
         <h2>Checkout form</h2>
         <p class="lead">Kindly Fill Your Details</p>
       </div>
-
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
           <div class="col col-sm-3 col-xs-6">
       <div id = 'cart-container' data-spy="affix" data-offset-top="10">
         <h1>Shopping Cart <span class="badge" id='cartItems'></span></h1>
         <div class="cart" id = 'cart'>
-         add a product
+         
         </div>
 	        <div id = 'prices'></div>
 	  </div>
-    </div>
-
-          
+    </div>     
         </div>
         <div class="col-md-8 order-md-1">
           <h4 class="mb-3">Billing address</h4>
@@ -96,7 +87,6 @@
                 </div>
               </div>
             </div>
-
             <div class="mb-3">
               <label for="email">Email <span class="text-muted">(Optional)</span></label>
               <input type="email" class="form-control" id="email" placeholder="you@example.com">
@@ -208,7 +198,7 @@
               </div>
             </div>
             <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit" id="checkout" >Continue to checkout</button>
           </form>
         </div>
       </div>
@@ -247,6 +237,12 @@
           });
         }, false);
       })();
+      $(document).ready(function () {
+    $("#checkout").click(function () {
+        alert("You have checked out succesfully");
+    });
+});
+
     </script>
   </body>
 </html>
