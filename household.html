@@ -148,7 +148,6 @@
 
       <!-- Latest compiled and minified CSS -->
  
-
 <script >var itemsInCart = 0;
 var subTotal = 0;
 const tax = 0.16;	// 16%
@@ -231,7 +230,7 @@ function updatePrice() {
 	newDiv.append('<strong>Tax: ' + tax * 100 + '%<br>');
 	newDiv.append('<strong>Total Price: KES' + (subTotal + (subTotal * tax)).toFixed(2) + '</strong>');
 
-	newDiv.append('<button class="btn btn-info btn-block" onclick="openModal()">Continue</button>');
+	newDiv.append('<button class="btn btn-info btn-block" href="checkout.html" onclick="openModal()">Continue</button>');
 
 	$('#prices').append(newDiv);
 	newDiv.animateCss('bounceInRight');
