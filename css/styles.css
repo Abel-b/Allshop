@@ -354,104 +354,88 @@ h2{
   background: #000000;
   color: white;
 }
-.newest {
-  cursor: pointer;
-  height: 150px;
-  perspective: 600;
-  position: relative;
-  width: 150px;
-  margin-left: 100px;
+.products
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 99px;
+	z-index: 2;
 }
-.new-card {
-  height: 100%;
-  position: absolute;
-  transform-style: preserve-3d;
-  transition: all 1s ease-in-out;
-  width: 100%;
+.product
+{
+	width: calc((100% - 90px) / 4);
+	margin-bottom: 59px;
 }
-.new-card:hover {
-  transform: rotateY(180deg);
+.product_image
+{
+	width: 100%;
 }
-.new-card .new1 {
-  backface-visibility: hidden;
-  border-radius: 10px;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  width: 100%;
+.product_image img
+{
+	max-width: 100%;
 }
-.new-card .back {
-  background: #eaeaed;
-  color: #0087cc;
-  line-height: 50px;
-  text-align: center;
-  transform: rotateY(180deg);
+.product_content
+{
+	width: 100%;
+	padding-top: 36px;
+	padding-bottom: 38px;
 }
-.newest1 {
-  cursor: pointer;
-  height: 150px;
-  perspective: 600;
-  position: relative;
-  width: 150px;
+.product_title a
+{
+	font-size: 18px;
+	font-weight: 500;
+	color: #1b1b1b;
+	line-height: 1.1;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
 }
-.new-card1 {
-  height: 100%;
-  position: absolute;
-  transform-style: preserve-3d;
-  transition: all 1s ease-in-out;
-  width: 100%;
+.product_title a:hover
+{
+	color: #e95a5a;
 }
-.new-card1:hover {
-  transform: rotateY(180deg);
+.product_price
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: #6c6a74;
+	line-height: 0.75;
+	margin-top: 13px;
 }
-.new-card1 .new2 {
-  backface-visibility: hidden;
-  border-radius: 10px;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  width: 100%;
+.product_extra
+{
+	position: absolute;
+	top: 0;
+	left: 54px;
+	width: 66px;
+	height: 36px;
+	text-align: center;
+	-webkit-transform-origin: top left;
+	-moz-transform-origin: top left;
+	-ms-transform-origin: top left;
+	-o-transform-origin: top left;
+	transform-origin: top left;
+	transform: rotate(90deg);
 }
-.new-card1 .back1 {
-  background: #eaeaed;
-  color: #0087cc;
-  line-height: 50px;
-  text-align: center;
-  transform: rotateY(180deg);
+.product_extra a
+{
+	display: block;
+	font-size: 16px;
+	font-weight: 500;
+	color: #FFFFFF;
+	line-height: 36px;
 }
-.newest2 {
-  cursor: pointer;
-  height: 150px;
-  perspective: 600;
-  position: relative;
-  width: 150px;
+.product_new
+{
+	background: #6c6a74;
 }
-.new-card2 {
-  height: 100%;
-  position: absolute;
-  transform-style: preserve-3d;
-  transition: all 1s ease-in-out;
-  width: 100%;
+.product_sale
+{
+	background: #e95a5a;
 }
-.new-card2:hover {
-  transform: rotateY(180deg);
+.product_hot
+{
+	background: #1b1b1b;
 }
-.new-card2 .new3 {
-  backface-visibility: hidden;
-  border-radius: 10px;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  width: 100%;
-}
-.new-card2 .back2 {
-  background: #eaeaed;
-  color: #0087cc;
-  line-height: 50px;
-  text-align: center;
-  transform: rotateY(180deg);
-}
-
-
-
-

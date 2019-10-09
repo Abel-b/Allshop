@@ -2,8 +2,8 @@
 ## Authors
 * Keith
 * Abel
-* zack
-* Achraf
+* Zach
+* Ashraf
 ## Description
 An online shop that helps buyers make informed shopping decisions on items by comparing the prices of a product sold by various vendors and getting the items delivered to them conveniently.
 ## Project setup instructions
