@@ -350,9 +350,40 @@ h2{
 .icon-bar a:hover {
   background-color: #d8d8d8;
 }
-
 .icon-icon {
   background: #000000;
   color: white;
+}
+.newest {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+}
+.new-card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.new-card:hover {
+  transform: rotateY(180deg);
+}
+.new-card .new1 {
+  backface-visibility: hidden;
+  border-radius: 10px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.new-card .back {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 50px;
+  text-align: center;
+  transform: rotateY(180deg);
 }
 
