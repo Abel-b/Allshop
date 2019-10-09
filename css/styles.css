@@ -374,6 +374,9 @@ h2{
 {
 	max-width: 100%;
 }
+.product_image:hover{
+  background-color: #dddbdb;
+}
 .product_content
 {
 	width: 100%;
@@ -475,6 +478,7 @@ h2{
 .new-card .back {
   background: #eaeaed;
   color: #0087cc;
+  font-size: 110%;
   line-height: 50px;
   text-align: center;
   transform: rotateY(180deg);
@@ -508,7 +512,6 @@ h2{
   background: #eaeaed;
   color: #0087cc;
   line-height: 50px;
-  text-align: center;
   transform: rotateY(180deg);
 }
 .newest2 {
