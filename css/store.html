@@ -1,0 +1,233 @@
+<!--catalog-->
+
+<!--catalogue-->
+
+
+
+
+.catalogue_images{
+  width: 50px;
+  height: 400px;
+}
+#title{
+  margin:auto; width:110px;
+}
+#title a{
+  font-family: 'Shrikhand', cursive; font-size:40px; color:#000000; text-decoration: none;
+}
+.slash-h{
+  width:40%;margin:auto;display:block;text-align:center;border-bottom:1px solid #AAA;
+}
+#card-contener{
+  height:45%;width:80%; margin:auto;
+}
+.card{
+  width:33%; display:block; float:left; border:0px solid #AAA; margin: 15px auto 15px auto; border-radius:5px;
+}
+.card img{
+  width:80%;
+
+}
+.grey{
+  background-color: white;
+}
+.card{
+  position:relative;
+}
+img{
+  display: block;
+}
+.overlay {
+  position: absolute;bottom: 100%;left: 0;right: 0;background-color: rgba(255, 255, 255, 0.4);overflow: hidden;width: 100%;height:0;transition: .5s ease;
+}
+.card:hover .overlay {
+  bottom: 0;height: 100%;
+}
+h3{
+  text-align:center; font-family: 'Bevan', cursive;
+}
+.p-product{
+  color:#000; margin:0px 30px; font-size:25px; font-family: 'Sniglet', cursive;
+}
+.price{
+  display:block;
+}
+.share{
+  font-size:1.79vw;text-align:center;margin:auto;
+}
+.price{
+  background:#d62013; width:50%; text-align:center;padding:10px 0px;display:inline-block;
+}
+.buy{
+  background:#15d80f; width:50%; text-align:center;padding:10px 0px;display:inline-block;color:#FFF;
+}
+.buy-info{
+  color:#FFF;display:block;width:80%; margin:auto;
+}
+h2{
+  text-align: right
+}
+@media screen and (max-width: 640px){.card{width:100%;}}
+@media screen and (max-width: 1200px){.card{width:49%;}}
+@media screen and (max-width: 1400px){.p-product{font-size:20px;}}
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Bevan');
+@import url('https://fonts.googleapis.com/css?family=Sniglet');
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: right;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.card-container{
+  margin-left: 3%;
+}
+
+
+
+
+<div class="container-fluid">
+  <h1>CATALOGUE</h1>
+  <div class="slash-h"></div><br>
+
+  <div> 
+    
+      <div id="card-container">
+        <div class="card grey">
+          <a href=""><img class="catalogue_images" src="images/electronics/product_10.jpg">
+          </a>
+          <div class="overlay"><h3>Product 1</h3><p class="p-product">Wireless headphones<br>
+    sony store</p><p class="share"><a href="#"target="_blank"><i class="#" aria-hidden="true"></i></a><a href="#"><i class="#" aria-hidden="true"></i>
+            </a><a href=""></a></p><div class="buy-info"><p class="price">Ksh2949</p><a href=""><p class="buy">Buy !</p></a></div></div>
+        </div>
+        <div class="card grey">
+          <a href=""><img class="catalogue_images" src="images/electronics/product_10.jpg">
+          </a>
+          <div class="overlay"><h3>Product 2</h3><p class="p-product">Wireless headphones<br>
+    Carrefour</p><p class="share"><a href="#"target="_blank"><i class="#" aria-hidden="true"></i></a><a href="#"><i class="#" aria-hidden="true"></i>
+            </a><a href=""></a></p><div class="buy-info"><p class="price">Ksh3149</p><a href=""><p class="buy">Buy !</p></a></div></div>
+        </div>
+        <div class="card grey">
+          <a href=""><img class="catalogue_images" src="images/electronics/product_10.jpg">
+          </a>
+          <div class="overlay"><h3>Product 3</h3><p class="p-product">Wireless headphones<br>
+    electroKenya </p><p class="share"><a href="#"target="_blank"><i class="#" aria-hidden="true"></i></a><a href="#"><i class="#" aria-hidden="true"></i>
+            </a><a href=""></a></p><div class="buy-info"><p class="price">Ksh2949</p><a href=""><p class="buy">Buy !</p></a></div></div>
+        </div>
+  </div>
+  <div>
+      <button class="accordion">Household</button>
+      <div class="panel">
+          <div id="card-container">
+              <div class="card grey">
+                <a href=""><img class="catalogue_images" src="images/electronics/product_10.jpg">
+                </a>
+                <div class="overlay"><h3>Product 1</h3><p class="p-product">Wireless headphones<br>
+          sony store</p><p class="share"><a href="#"target="_blank"><i class="#" aria-hidden="true"></i></a><a href="#"><i class="#" aria-hidden="true"></i>
+                  </a><a href=""></a></p><div class="buy-info"><p class="price">Ksh2949</p><a href=""><p class="buy">Buy !</p></a></div></div>
+              </div>
+              <div class="card grey">
+                <a href=""><img class="catalogue_images" src="images/electronics/product_10.jpg">
+                </a>
+                <div class="overlay"><h3>Product 2</h3><p class="p-product">Wireless headphones<br>
+          Carrefour</p><p class="share"><a href="#"target="_blank"><i class="#" aria-hidden="true"></i></a><a href="#"><i class="#" aria-hidden="true"></i>
+                  </a><a href=""></a></p><div class="buy-info"><p class="price">Ksh3149</p><a href=""><p class="buy">Buy !</p></a></div></div>
+              </div>
+              <div class="card grey">
+                <a href=""><img class="catalogue_images" src="images/electronics/product_10.jpg">
+                </a>
+                <div class="overlay"><h3>Product 3</h3><p class="p-product">Wireless headphones<br>
+          electroKenya </p><p class="share"><a href="#"target="_blank"><i class="#" aria-hidden="true"></i></a><a href="#"><i class="#" aria-hidden="true"></i>
+                  </a><a href=""></a></p><div class="buy-info"><p class="price">Ksh2949</p><a href=""><p class="buy">Buy !</p></a></div></div>
+              </div>
+        
+      </div>
+  </div>
+  <div>
+    <button class="accordion">Personalcare</button>
+    <div class="panel">
+        <div id="card-container">
+            <div class="card grey">
+              <a href=""><img class="catalogue_images" src="images/electronics/product_10.jpg">
+              </a>
+              <div class="overlay"><h3>Product 1</h3><p class="p-product">Wireless headphones<br>
+        sony store</p><p class="share"><a href="#"target="_blank"><i class="#" aria-hidden="true"></i></a><a href="#"><i class="#" aria-hidden="true"></i>
+                </a><a href=""></a></p><div class="buy-info"><p class="price">Ksh2949</p><a href=""><p class="buy">Buy !</p></a></div></div>
+            </div>
+            <div class="card grey">
+              <a href=""><img class="catalogue_images" src="images/electronics/product_10.jpg">
+              </a>
+              <div class="overlay"><h3>Product 2</h3><p class="p-product">Wireless headphones<br>
+        Carrefour</p><p class="share"><a href="#"target="_blank"><i class="#" aria-hidden="true"></i></a><a href="#"><i class="#" aria-hidden="true"></i>
+                </a><a href=""></a></p><div class="buy-info"><p class="price">Ksh3149</p><a href=""><p class="buy">Buy !</p></a></div></div>
+            </div>
+            <div class="card grey">
+              <a href=""><img class="catalogue_images" src="images/electronics/product_10.jpg">
+              </a>
+              <div class="overlay"><h3>Product 3</h3><p class="p-product">Wireless headphones<br>
+        electroKenya </p><p class="share"><a href="#"target="_blank"><i class="#" aria-hidden="true"></i></a><a href="#"><i class="#" aria-hidden="true"></i>
+                </a><a href=""></a></p><div class="buy-info"><p class="price">Ksh2949</p><a href=""><p class="buy">Buy !</p></a></div></div>
+            </div>
+    </div>
+      
+  </div>
+  <div>
+      <button class="accordion">Household</button>
+      <div class="panel">
+          <div id="card-container">
+              <div class="card grey">
+                <a href=""><img class="catalogue_images" src="images/electronics/product_10.jpg">
+                </a>
+                <div class="overlay"><h3>Product 1</h3><p class="p-product">Wireless headphones<br>
+          sony store</p><p class="share"><a href="#"target="_blank"><i class="#" aria-hidden="true"></i></a><a href="#"><i class="#" aria-hidden="true"></i>
+                  </a><a href=""></a></p><div class="buy-info"><p class="price">Ksh2949</p><a href=""><p class="buy">Buy !</p></a></div></div>
+              </div>
+              <div class="card grey">
+                <a href=""><img class="catalogue_images" src="images/electronics/product_10.jpg">
+                </a>
+                <div class="overlay"><h3>Product 2</h3><p class="p-product">Wireless headphones<br>
+          Carrefour</p><p class="share"><a href="#"target="_blank"><i class="#" aria-hidden="true"></i></a><a href="#"><i class="#" aria-hidden="true"></i>
+                  </a><a href=""></a></p><div class="buy-info"><p class="price">Ksh3149</p><a href=""><p class="buy">Buy !</p></a></div></div>
+              </div>
+              <div class="card grey">
+                <a href=""><img class="catalogue_images" src="images/electronics/product_10.jpg">
+                </a>
+                <div class="overlay"><h3>Product 3</h3><p class="p-product">Wireless headphones<br>
+          electroKenya </p><p class="share"><a href="#"target="_blank"><i class="#" aria-hidden="true"></i></a><a href="#"><i class="#" aria-hidden="true"></i>
+                  </a><a href=""></a></p><div class="buy-info"><p class="price">Ksh2949</p><a href=""><p class="buy">Buy !</p></a></div></div>
+              </div>
+      </div>>
+
+  </div>
+  </div>
+</div>
