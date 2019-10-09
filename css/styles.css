@@ -101,9 +101,6 @@ header {
   .icon_box_title {
     cursor: pointer;
   }
-.newest {
-  animation: animate1 16s ease-in-out infinite;
-}
   @keyframes animate{
     0%, 100%{ 
         background-image: url('../images/WhatsApp\ Image\ 2019-10-07\ at\ 1.35.07\ PM.jpeg');
@@ -127,28 +124,6 @@ header {
       background-size: cover;
     }
 }
-@keyframes move {
-  0%, 100% { transform: translateX(0px); }
-  50% { transform: translateX(50px); }
-};
-@keyframes animate1 {
-  0%, 100%{ 
-      background-image: url('../images/Household/newest.jpg');
-      height: 800px;
-      width: 100%;
-      background-repeat: no-repeat;
-      background-size: cover; 
-  }
-  50%{
-    background-image: url('../images/electronics/iphone11.png');
-    height: 800px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-}
-
 .icon_boxes
 {
 	width: 100%;
@@ -378,7 +353,6 @@ h2{
 .icon-bar a:hover {
   background-color: #d8d8d8;
 }
-
 .shopping-cart{
 	padding-bottom: 50px;
 	font-family: 'Montserrat', sans-serif;
@@ -513,9 +487,105 @@ h2{
 }
 
 
-
 .icon-icon {
   background: #000000;
   color: white;
+}
+.newest {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+  margin-left: 100px;
+}
+.new-card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.new-card:hover {
+  transform: rotateY(180deg);
+}
+.new-card .new1 {
+  backface-visibility: hidden;
+  border-radius: 10px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.new-card .back {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 50px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+.newest1 {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+}
+.new-card1 {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.new-card1:hover {
+  transform: rotateY(180deg);
+}
+.new-card1 .new2 {
+  backface-visibility: hidden;
+  border-radius: 10px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.new-card1 .back1 {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 50px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+.newest2 {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+}
+.new-card2 {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.new-card2:hover {
+  transform: rotateY(180deg);
+}
+.new-card2 .new3 {
+  backface-visibility: hidden;
+  border-radius: 10px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.new-card2 .back2 {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 50px;
+  text-align: center;
+  transform: rotateY(180deg);
 }
 
