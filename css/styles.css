@@ -471,7 +471,11 @@ h2{
 
 .shopping-cart .summary .price{
 	font-size: 1em;
-	float: right;
+  float: right;
+}
+.product_sale
+{
+	background: #ff5353;
 }
 
 .shopping-cart .summary button{
