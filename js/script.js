@@ -24,4 +24,7 @@ $(document).ready(function () {
     $(".about-us").click(function () {
         $("#about-us").fadeToggle();
     });
+    $("#checkout").click(function () {
+        alert("You have checked out succesfully");
+    });
 });
