@@ -1,31 +1,51 @@
 # AllShop
+
 ## Authors
+<<<<<<< HEAD
 * Keith
 * Abel
 * Zach
 * Ashraf
+=======
+
+- Keith
+- Abel
+- zack
+- Ashraf
+
+>>>>>>> 87a03742e82f99cfef4df86a18bbeb6bb1c161e7
 ## Description
+
 An online shop that helps buyers make informed shopping decisions on items by comparing the prices of a product sold by various vendors and getting the items delivered to them conveniently.
+
 ## Project setup instructions
+
 To start using this project use the following commands:
-* git clone 
-* cd 
-* code .
+
+- git clone
+- cd
+- code .
+
 ## Text Editor
-* Atom
+
+- Atom
+
 ## Technologies Used
-* HTML
-* CSS
-* Javascript
-* Boot-strap
+
+- HTML
+- CSS
+- Javascript
+- Boot-strap
+
 ## Support and contact details
 
 ## Link to live site
 
 ## License info
+
 MIT License
 
-Copyright (c) 2019 
+Copyright (c) 2019
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

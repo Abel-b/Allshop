@@ -21,4 +21,11 @@ $(document).ready(function () {
         $(".household-items1, .bed, .window, .linen").fadeToggle();
         $(".household").fadeToggle();
     });
+<<<<<<< HEAD
 });
+=======
+    $(".about-us").click(function () {
+        $("#about-us").fadeToggle();
+    });
+});
+>>>>>>> 87a03742e82f99cfef4df86a18bbeb6bb1c161e7

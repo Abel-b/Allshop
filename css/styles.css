@@ -103,26 +103,34 @@ header {
   }
   @keyframes animate{
     0%, 100%{ 
-        background-image: url('../images/WhatsApp\ Image\ 2019-10-07\ at\ 1.35.07\ PM.jpeg');
-        height: 800px;
+        background-image: url('../images/happy.jpg');
+        height: 600px;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover; 
     }
-    75%{
-        background-image: url('../images/WhatsApp\ Image\ 2019-10-07\ at\ 1.35.08\ PM.jpeg');
-        height: 800px;
+    25%{
+        background-image: url('../images/Household/house.jpg');
+        height: 600px;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
     }
     50%{
-      background-image: url('../images/tv.jpeg');
-      height: 800px;
+      background-image: url('../images/groceries/groceries.jpg');
+      height: 600px;
       width: 100%;
       background-repeat: no-repeat;
       background-size: cover;
     }
+    75%{
+      background-image: url('../images/WhatsApp\ Image\ 2019-10-07\ at\ 1.35.08\ PM.jpeg');
+      height: 600px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
 }
 .icon_boxes
 {
@@ -246,6 +254,11 @@ header {
 	font-weight: 400;
 	color: #6c6a74;
 	margin-top: 3px;
+}
+#about-us {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: none;
 }
 .contact_form_container
 {
