@@ -17,8 +17,4 @@ $(document).ready(function () {
         $(".icon_box_image2").fadeToggle();
         $(".lead2").fadeToggle();
     });
-    $(".categ").click(function () {
-        $(".household-items1, .bed, .window, .linen").fadeToggle();
-        $(".household").fadeToggle();
-    });
 });

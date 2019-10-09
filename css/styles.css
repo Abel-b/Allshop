@@ -101,9 +101,6 @@ header {
   .icon_box_title {
     cursor: pointer;
   }
-  .categ {
-    animation: move 4000ms linear infinite;
-  }
 .newest {
   animation: animate1 16s ease-in-out infinite;
 }
@@ -307,13 +304,16 @@ header {
 .contact_button
 {
 	position: relative;
-	margin-top: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 5px;
 }
 .contact_button span
 {
 	display: block;
 	position: relative;
-	color: #1b1b1b;
+	color: white;
 	z-index: 2;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -321,9 +321,9 @@ header {
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.contact_button:hover span
+.contact_button:hover
 {
-	color: rgb(168, 165, 165);
+	opacity: 0.9;
 }
 .contact_info_section:not(:first-child)
 {
