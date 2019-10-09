@@ -1,19 +1,10 @@
 # AllShop
 
 ## Authors
-<<<<<<< HEAD
 * Keith
 * Abel
 * Zach
 * Ashraf
-=======
-
-- Keith
-- Abel
-- zack
-- Ashraf
-
->>>>>>> 87a03742e82f99cfef4df86a18bbeb6bb1c161e7
 ## Description
 
 An online shop that helps buyers make informed shopping decisions on items by comparing the prices of a product sold by various vendors and getting the items delivered to them conveniently.
