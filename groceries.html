@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+  <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="./css/products.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js" integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo="
+    crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+  <title>Allshop</title>
+
+<style class="cp-pen-styles">.btn-add-cart {
+	position: absolute;
+	left: 15px;
+	top: 0px;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+    <header>
+      <h1 style="font-size: 50px" id="footer_header">Allshopâ„¢</h1>
+    </header>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <div class="dropdown2">
+        <button class="dropbtn2">Categories
+          <i class="fa fa-caret-down"></i>
+        </button>
+       <div class="dropdown-content2">
+          <a href="household.html">Household</a>
+          <a href="personalcare.html">Personal Care</a>
+          <a href="groceries.html">Groceries</a>
+          <a href="electronics.html">Electronics</a>
+        </div>
+      </div>
+      <a href="#contact">Contact</a>
+      <a href="checkout.html" class="fa fa-shopping-cart" style="font-size:36px; font-size:36px; margin-left: 50%; padding-top: 5px" ></i></a>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search..." search>
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <!--sticky social bar-->
+  <div class="icon-bar">
+      <a href="#" class="icon-icon"><i class="fa fa-home"></i></a>
+      <a href="#" class="icon-icon"><i class="fa fa-twitter"></i></a>
+      <a href="#" class="icon-icon"><i class="fa fa-pinterest"></i></a>
+      <a href="#" class="icon-icon"><i class="fa fa-facebook"></i></a>
+      <a href="#" class="icon-icon"><i class="fa fa-instagram"></i></a>
+  </div>
+  <div>
+  
+  
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-9 col-xs-6">
+        <h1>Groceries</h1>
+        <div class="row">
+          <div class="col col-xs-12 col-md-6 col-lg-4 item">
+            <div class='img-container'>
+              <img src="images/groceries/of8.png">
+            </div>
+            <h2>Banana</h2>
+            <p>Fruits</p>
+            <p>KES189.99</p>
+          </div>
+          <div class="col col-xs-12 col-md-6 col-lg-4 item">
+            <div class='img-container'>
+              <img src="images/groceries/of9.png">
+            </div>
+            <h2>Onions</h2>
+            <p>Vegetable</p>
+            <p>KES150.00</p>
+          </div>
+          <div class="col col-xs-12 col-md-6 col-lg-4 item">
+            <div class='img-container'>
+              <img src="images/groceries/of10.png">
+            </div>
+            <h2></h2>
+            <p>Vegetable</p>
+            <p>KES488.00</p>
+          </div>
+          <div class="col col-xs-12 col-md-6 col-lg-4 item">
+            <div class='img-container'>
+              <img src="images/groceries/of11.png">
+            </div>
+            <h2>Apple</h2>
+            <p>Fruit</p>
+            <p>KES50.00</p>
+          </div>
+          <div class="col col-xs-12 col-md-6 col-lg-4 item">
+            <div class='img-container'>
+              <img src="images/groceries/of12.png">
+            </div>
+            <h2>Honey</h2>
+            <p>Natural Products</p>
+            <p>KES 500.89</p>
+          </div>
+          
+          <div class="col col-xs-12 col-md-6 col-lg-4 item">
+            <div class='img-container'>
+              <img src="images/groceries/of13.png">
+            </div>
+            <h2>Chocos</h2>
+            <p>Grain</p>
+            <p>KES389.99</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="col col-sm-3 col-xs-6">
+      <div id = 'cart-container' data-spy="affix" data-offset-top="10">
+        <h1>Shopping Cart <span class="badge" id='cartItems'></span></h1>
+        <div class="cart" id = 'cart'>
+         add a product
+        </div>
+	        <div id = 'prices'></div>
+	  </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel" ><a href="checkout.html">Complete order</a></h4>
+        
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      <!-- Latest compiled and minified CSS -->
+ 
+
+<script >var itemsInCart = 0;
+var subTotal = 0;
+const tax = 0.16;	// 16%
+var totalPrice = 0;
+
+
+window.onload = function() {
+  $('img').addClass('img-responsive');
+  
+	$('.img-container').append('<button class="btn btn-success btn-add-cart"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>');
+
+$('.btn-add-cart').click( (e) => { 
+		//animation
+		$(e.target).animateCss('pulse');
+		// find out which item is clicked
+		// if 'span' with cart symbol is clicked, then navigate one level up to the button
+		let eventTarget;
+		if ($(e.target).is('span')) eventTarget = $(e.target).parent();
+			else eventTarget = $(e.target);
+		let itemName = eventTarget.parent().parent().find('h2')[0].textContent ;
+		let itemPrice = eventTarget.parent().parent().find('p')[1].textContent ;
+		addToCart(itemName, itemPrice);
+	});
+
+	$('#submit').click( () => {
+		formSubmitted();
+	});
+
+	setRandomPrices();
+}
+
+function setRandomPrices() {
+	// just for fun
+	let items = document.querySelectorAll('.item');
+	for (let item of items) {if (window.CP.shouldStopExecution(1)){break;}
+		$(item).find('p')[1].textContent = 'KES' + (Math.floor(Math.random() * (199 - 0)) + 0) + '.' + (Math.floor(Math.random() * (99 - 10)) + 10);
+	}
+window.CP.exitedLoop(1);
+
+}
+
+function addToCart(name, price) {
+	let priceNumber = parseFloat(price.slice(3));
+	if (itemsInCart === 0) $('#cart').text(" ");
+	let newDiv = $('<div class="cart-item"></div>');
+	newDiv.text(name + ' ... ' + price + ' ');
+	newDiv.append('<button class="btn btn-danger btn-xs" onclick="deleteItem(this)">X</button>');
+	newDiv.append('<hr>');
+	newDiv.attr('name', name);
+	newDiv.attr('price', priceNumber);
+	$('#cart').append(newDiv);
+	newDiv.animateCss('bounceInRight');
+	itemsInCart++;
+	$('#cartItems').text(itemsInCart);
+	subTotal += priceNumber;
+	updatePrice();
+}
+
+function deleteItem(e) {
+	let price = $(e.parentElement).attr('price');
+	subTotal -= price;
+	$(e.parentElement).animateCss('bounceOutRight');
+	$(e.parentElement).remove();
+	itemsInCart--;
+	$('#cartItems').text(itemsInCart);
+	updatePrice();
+	cartLonelyText();
+}
+
+function cartLonelyText() {
+	if (itemsInCart === 0) 
+		$('#cart').append('add a product');
+}
+
+function updatePrice() {
+	$('#prices').empty();
+	if (itemsInCart === 0) return;
+	let newDiv = $('<div></div>');
+	newDiv.append('<strong>Subtotal: KES' + subTotal.toFixed(2) + '<br>');
+	newDiv.append('<strong>Tax: ' + tax * 100 + '%<br>');
+	newDiv.append('<strong>Total Price: KES' + (subTotal + (subTotal * tax)).toFixed(2) + '</strong>');
+
+	newDiv.append('<button class="btn btn-info btn-block" onclick="openModal()">Continue</button>');
+
+	$('#prices').append(newDiv);
+	newDiv.animateCss('bounceInRight');
+}
+
+
+function cartToString() {
+	let itemsString = "<small><p><strong>Your order:</strong><br>";
+	let cartItems = document.querySelectorAll('.cart-item');
+	for (let item of cartItems) {if (window.CP.shouldStopExecution(2)){break;}
+		itemsString = itemsString + item.getAttribute('name') + " .. $" + item.getAttribute('price') + "<br>";
+		}
+window.CP.exitedLoop(2);
+;
+	itemsString += '</p><p>Subtotal: KES' + subTotal.toFixed(2) + '<br>';
+	itemsString += 'Tax: ' + tax * 100 + '%<br>'
+	itemsString += 'Total price with tax: <mark><strong>KES' + (subTotal + (subTotal * tax)).toFixed(2) + '</strong></mark></p></small>';
+	return itemsString;
+}
+
+function openModal() {
+	$('#cartContentsModal').html(cartToString());
+	$('#myModal').modal('show');
+}
+
+
+function formSubmitted() {
+	if (!checkEmptyFields()) {		// if the fields arent empty
+		sweetAlert("Thanks!", "Thanks for your order! We will contact you for more information", "success");
+	} else { return; }
+	// clear cart and do other cleaning if order is OK
+	$('#myModal').modal('hide');
+	totalPrice = 0; subTotal = 0; itemsInCart = 0;
+	$('#cart').empty();
+	$('#prices').empty();
+	$('#cartItems').text(itemsInCart);
+	cartLonelyText();
+}
+
+
+
+$.fn.extend({
+//		https://github.com/daneden/animate.css
+    animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        this.addClass('animated ' + animationName).one(animationEnd, function() {
+            $(this).removeClass('animated ' + animationName);
+        });
+        return this;
+    }
+});
+//# sourceURL=pen.js
+</script>
+</body></html>
