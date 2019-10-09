@@ -21,4 +21,7 @@ $(document).ready(function () {
         $(".household-items1, .bed, .window, .linen").fadeToggle();
         $(".household").fadeToggle();
     });
+    $(".about-us").click(function () {
+        $("#about-us").fadeToggle();
+    });
 });
