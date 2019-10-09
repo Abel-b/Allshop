@@ -255,6 +255,11 @@ header {
 	color: #6c6a74;
 	margin-top: 3px;
 }
+#about-us {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: none;
+}
 .contact_form_container
 {
 	width: 100%;
