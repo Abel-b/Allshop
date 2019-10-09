@@ -109,7 +109,7 @@ header {
         background-repeat: no-repeat;
         background-size: cover; 
     }
-    75%{
+    25%{
         background-image: url('../images/Household/house.jpg');
         height: 600px;
         width: 100%;
@@ -123,6 +123,14 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
     }
+    75%{
+      background-image: url('../images/WhatsApp\ Image\ 2019-10-07\ at\ 1.35.08\ PM.jpeg');
+      height: 600px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
 }
 .icon_boxes
 {
