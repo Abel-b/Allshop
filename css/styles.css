@@ -23,11 +23,7 @@ header {
     color: white;
     opacity: 0.8;
   }
-<<<<<<< HEAD
-  h1{
-=======
   h1, h4{
->>>>>>> bf6d70267227727fcac97cafbd2dd68b3193ca60
     text-align: center;
     font-family: 'Mansalva';
   }
@@ -354,16 +350,10 @@ h2{
 .icon-bar a:hover {
   background-color: #d8d8d8;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> bf6d70267227727fcac97cafbd2dd68b3193ca60
 .icon-icon {
   background: #000000;
   color: white;
 }
-<<<<<<< HEAD
-=======
 .newest {
   cursor: pointer;
   height: 150px;
@@ -464,5 +454,4 @@ h2{
 
 
 
->>>>>>> bf6d70267227727fcac97cafbd2dd68b3193ca60
 
