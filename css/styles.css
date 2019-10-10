@@ -145,6 +145,9 @@ z-index: 2;
 width: 100%;
 text-align: center;
 }
+.slang {
+  text-align: center;
+}
 .icon_box_image, .icon_box_image1, .icon_box_image2
 {
 width: 75px;
@@ -346,11 +349,14 @@ h2{
 font-weight: bold;
 }
 .icon-bar {
-position: fixed;
-top: 50%;
--webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
+
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 5%;
+
 }
 .icon-bar a {
 display: block;
@@ -559,6 +565,7 @@ line-height: 50px;
 text-align: center;
 transform: rotateY(180deg);
 }
+
 
 
 
