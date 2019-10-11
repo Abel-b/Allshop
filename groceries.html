@@ -26,7 +26,7 @@
 <body>
 <div class="container-fluid">
     <header>
-      <h1 style="font-size: 50px" id="footer_header">Allshopâ„¢</h1>
+      <h1 style="font-size: 50px" id="footer_header">Allshop™</h1>
     </header>
     <div class="topnav">
       <a href="index.html">Home</a>
@@ -258,7 +258,7 @@ function updatePrice() {
 	newDiv.append('<strong>Tax: ' + tax * 100 + '%<br>');
 	newDiv.append('<strong>Total Price: KES' + (subTotal + (subTotal * tax)).toFixed(2) + '</strong>');
 
-	newDiv.append('<button class="btn btn-info btn-block" onclick="openModal()">Continue</button>');
+	newDiv.append('<a href="checkout.html"><button class="btn btn-info btn-block" onclick="openModal()">Continue</button></a>');
 
 	$('#prices').append(newDiv);
 	newDiv.animateCss('bounceInRight');

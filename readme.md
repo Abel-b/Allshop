@@ -1,5 +1,4 @@
 # AllShop
-
 ## Authors
 * Keith
 * Abel
@@ -13,14 +12,12 @@ An online shop that helps buyers make informed shopping decisions on items by co
 
 To start using this project use the following commands:
 
-- git clone
-- cd
+- git clone https://github.com/nook7466/Allshop.git
+- cd Allshop
 - code .
 
 ## Text Editor
-
-- Atom
-
+* Code.
 ## Technologies Used
 
 - HTML
@@ -30,7 +27,15 @@ To start using this project use the following commands:
 
 ## Support and contact details
 
+Emails: 
+* keithomware@gmail.com
+* zachnjuguna@gmail.com
+* abelberhane011@gmail.com
+* ahmadashraf159@gmail.com
+
 ## Link to live site
+
+* https://nook7466.github.io/Allshop/
 
 ## License info
 
