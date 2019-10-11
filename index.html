@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,11 +12,11 @@
   <script src="./js/script.js"></script>
   <title>Allshop</title>
 </head>
-
 <body>
   <div class="container-fluid">
     <header>
       <h1 style="font-size: 50px" id="footer_header">Allshop™</h1>
+      <p class="slang">Let us be your Digital Cart to help you shop right!</p>
     </header>
     <div class="topnav">
       <a href="index.html">Home</a>
@@ -26,7 +25,6 @@
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content2">
-<<<<<<< HEAD
           <a href="household.html">Household</a>
           <a href="personalcare.html">Personal Care</a>
           <a href="groceries.html">Groceries</a>
@@ -34,80 +32,212 @@
         </div>
       </div>
       <a href="#contact">Contact</a>
-      <a href="checkout.html" class="fa fa-shopping-cart" style="font-size:36px; font-size:36px; margin-left: 50%; padding-top: 5px" ></i></a>
-=======
-          <a href="#">Household</a>
-          <a href="#">Personal Care</a>
-          <a href="#">Groceries</a>
-          <a href="#">Electronics</a>
-        </div>
-      </div>
-      <a href="#contact">Contact</a>
-      <i class="fa fa-shopping-cart" style="font-size:36px; font-size:36px; margin-left: 50%; padding-top: 5px"></i>
->>>>>>> bf6d70267227727fcac97cafbd2dd68b3193ca60
+      <a href="#about-us" class="about-us">About Us</a>
+      <a href="checkout.html" class="fa fa-shopping-cart"
+        style="font-size:36px; font-size:36px; margin-left: 50%; padding-top: 5px"></i></a>
       <div class="search-container">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search..." search>
+        <form id="frmSearch" method="get" action="default.html" >
+          <input id="txtSearch" type="text" name="serach_bar" placeholder="Search..." value="">
           <button type="submit"><i class="fa fa-search"></i></button>
         </form>
       </div>
     </div>
   </div>
-  <div class="categ">
-    <h1>What are you looking for?</h1>
+  <!--New arrivals-->
+  <div><br><br>
+    <h1>New Arrivals!</h1>
+  </div>
+  <div class="products">
+    <div class="container">
+      <div class="row">
+        <div class="product col-md-3">
+          <div class="product_image"><img class="img-responsive" src="images/groceries/of2.png" alt=""></div>
+          <div class="product_extra product_new"><a href="#">new</a></div>
+          <div class="product_content">
+            <div class="product_title"><a href="#">Kabul grains</a></div>
+            <div class="product_price"> Ksh700</div>
+          </div>
+        </div>
+        <div class="product col-md-3">
+          <div class="product_image"><img src="images/electronics/product_9.jpg" alt=""></div>
+          <div class="product_extra product_new"><a href="#">New</a></div>
+          <div class="product_content">
+            <div class="product_title"><a href="">Quadcopter drone</a></div>
+            <div class="product_price"> Ksh36000</div>
+          </div>
+        </div>
+        <div class="product col-md-3">
+          <div class="product_image"><img src="images/Household/of48.png" alt=""></div>
+          <div class="product_extra product_new"><a href="#">New</a></div>
+          <div class="product_content">
+            <div class="product_title"><a href="#">Cat food</a></div>
+            <div class="product_price"> Ksh2500</div>
+          </div>
+        </div>
+        <div class="product col-md-3">
+          <div class="product_image"><img src="images/groceries/of14.png" alt=""></div>
+          <div class="product_extra product_new"><a href="#">New</a></div>
+          <div class="product_content">
+            <div class="product_title"><a href="#">Oatmeal</a></div>
+            <div class="product_price">Ksh700</div>
+          </div>
+        </div> <br><br>
+        <div class="product col-md-3">
+          <div class="product_image"><img src="images/groceries/of13.png" alt=""></div>
+          <div class="product_extra product_new"><a href="#">New</a></div>
+          <div class="product_content">
+            <div class="product_title"><a href="#">Choco cereal</a></div>
+            <div class="product_price">Ksh700</div>
+          </div>
+        </div>
+        <div class="product col-md-3">
+          <div class="product_image"><img src="images/electronics/product_5.jpg" alt=""></div>
+          <div class="product_extra product_new"><a href="#">New</a></div>
+          <div class="product_content">
+            <div class="product_title"><a href="#">Bose headsets</a></div>
+            <div class="product_price">Ksh7000</div>
+          </div>
+        </div>
+        <div class="product col-md-3">
+          <div class="product_image"><img src="images/groceries/of25.png" alt=""></div>
+          <div class="product_extra product_new"><a href="#">New</a></div>
+          <div class="product_content">
+            <div class="product_title"><a href="#">Del monte pineapple slices</a></div>
+            <div class="product_price">Ksh1200</div>
+          </div>
+        </div>
+        <div class="product col-md-3">
+          <div class="product_image"><img src="images/Household/of59.png" alt=""></div>
+          <div class="product_extra product_new"><a href="#">New</a></div>
+          <div class="product_content">
+            <div class="product_title"><a href="#">Gillette mach 3</a></div>
+            <div class="product_price">Ksh700</div>
+          </div>
+        </div>
+        <div class="product col-md-3">
+          <div class="product_image"><img src="images/electronics/product_8.jpg" alt=""></div>
+          <div class="product_extra product_new"><a href="#">New</a></div>
+          <div class="product_content">
+            <div class="product_title"><a href="#">Mac Keyboard</a></div>
+            <div class="product_price">Ksh7000</div>
+          </div>
+        </div>
+        <div class="product col-md-3">
+          <div class="product_image"><img src="images/Household/of22.png" alt=""></div>
+          <div class="product_extra product_new"><a href="#">New</a></div>
+          <div class="product_content">
+            <div class="product_title"><a href="#">item</a></div>
+            <div class="product_price">Ksh7000</div>
+          </div>
+        </div>
+        <div class="product col-md-3">
+          <div class="product_image"><img src="images/personal care/of21.png" alt=""></div>
+          <div class="product_extra product_new"><a href="#">New</a></div>
+          <div class="product_content">
+            <div class="product_title"><a href="#">spray cleaning agent</a></div>
+            <div class="product_price">Ksh250</div>
+          </div>
+        </div>
+        <div class="product col-md-3">
+          <div class="product_image"><img src="images/electronics/iphone11.png" alt=""></div>
+          <div class="product_extra product_new"><a href="#">New</a></div>
+          <div class="product_content">
+            <div class="product_title"><a href="#">iPhone 11</a></div>
+            <div class="product_price">Ksh120000</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
   <!--sticky social bar-->
   <div class="icon-bar">
-<<<<<<< HEAD
-      <a href="#" class="icon-icon"><i class="fa fa-home"></i></a>
-      <a href="#" class="icon-icon"><i class="fa fa-twitter"></i></a>
-      <a href="#" class="icon-icon"><i class="fa fa-pinterest"></i></a>
-      <a href="#" class="icon-icon"><i class="fa fa-facebook"></i></a>
-      <a href="#" class="icon-icon"><i class="fa fa-instagram"></i></a>
-=======
     <a href="#" class="icon-icon"><i class="fa fa-home"></i></a>
     <a href="#" class="icon-icon"><i class="fa fa-twitter"></i></a>
     <a href="#" class="icon-icon"><i class="fa fa-pinterest"></i></a>
     <a href="#" class="icon-icon"><i class="fa fa-facebook"></i></a>
     <a href="#" class="icon-icon"><i class="fa fa-instagram"></i></a>
   </div>
-  <h4>New arrivals</h4>
+  <!--Offers and sales-->
+  <h1>Offers and sales!</h1><br><br><br><br><br><br>
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="newest">
         <div class="new-card">
-          <img src="images/electronics/iphone11.png" width="100%" class="new1">
-          <div class="new1  back">Item: Iphone11
-            Price: ksh 70,000 <br /> Store: Carrefour</div>
+          <img src="images/Cleaning Equipments/of38.png" width="100%" class="new1">
+          <div class="product_extra product_sale"><a href="#">Sale</a></div>
+          <div class="new1  back">Hair Gel:
+            <s>ksh 700 </s>Ksh500 Store: Carrefour</div>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="newest1">
         <div class="new-card1">
-          <img src="images/Household/of22.png" width="100%" class="new2">
-          <div class="new2  back1">Item: Window-splash Price: ksh 200 <br /> Store: Tuskys</div>
+          <img src="images/Cleaning Equipments/of1.png" width="100%" class="new2">
+          <div class="product_extra product_sale"><a href="#">Sale</a></div>
+          <div class="new2  back1">Dhara: Ksh<s>2000</s> to Ksh 1500<br /> Store: Tuskys</div>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-        <div class="newest2">
-          <div class="new-card2">
-            <img src="images/electronics/tv.jpg" width="100%" class="new3">
-            <div class="new3  back2">Item: Television
-              Price: ksh 100,000 <br /> Store: Navis</div>
-          </div>
+    <div class="col-md-3">
+      <div class="newest2">
+        <div class="new-card2">
+          <img src="images/Household/of54.png" width="100%" class="new3">
+          <div class="product_extra product_sale"><a href="#">Sale</a></div>
+          <div class="new3  back2">Dog feed bowl Ksh.<s>1000</s> to Ksh.750<br>Store: Naivas</div>
         </div>
       </div>
-  
+    </div>
+    <div class="col-md-3">
+      <div class="newest2">
+        <div class="new-card2">
+          <img src="images/personal care/of36.png" width="100%" class="new3">
+          <div class="product_extra product_sale"><a href="#">Sale</a></div>
+          <div class="new3  back2">baby oil:
+            Ksh<s>200</s> to Ksh125<br />Store: Naivas</div>
+        </div>
+      </div>
+    </div>
+  </div><br><br><br><br>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="newest">
+        <div class="new-card">
+          <img src="images/groceries/of34.png" width="100%" class="new1">
+          <div class="product_extra product_sale"><a href="#">Sale</a></div>
+          <div class="new1  back">tuna: Ksh.<s>1200</s> to Ksh.1000<br /> store: Carrefour</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="newest1">
+        <div class="new-card1">
+          <img src="images/groceries/of35.png" width="100%" class="new2">
+          <div class="product_extra product_sale"><a href="#">Sale</a></div>
+          <div class="new2  back1">Idli spice: <s>ksh 200</s> to Ksh 50 <br /> Store: Tuskys</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="newest3">
+        <div class="new-card">
+          <img src="images/electronics/product_11.jpg" width="100%" class="new1">
+          <div class="product_extra product_sale"><a href="#">Sale</a></div>
+          <div class="new1  back">PS4 pro:ksh <S>60,000</S> to Ksh 40000<br />Store: Naivas</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="newest3">
+        <div class="new-card">
+          <img src="images/electronics/product_3.jpg" width="100%" class="new1">
+          <div class="product_extra product_sale"><a href="#">Sale</a></div>
+          <div class="new1  back">iPhone charger
+            ksh <s>1000</s> to Ksh 500<br /> Store: Naivas</div>
+        </div>
+      </div>
   </div>
-
-
-
-
-
-
->>>>>>> bf6d70267227727fcac97cafbd2dd68b3193ca60
   </div>
   <!-- Icon Boxes -->
   <div class="icon_boxes">
@@ -116,32 +246,42 @@
       <div class="row jumbotron">
         <div class="col-md-4">
           <div class="icon_box">
-
             <div class="icon_box_image"><img src="images/icon_1.svg" alt=""></div>
             <div class="icon_box_title">Free country-wide delivery</div>
             <p class="lead">Free delivery on *most* items meeting Ksh2500 minimum and an extended 30-day window for
               returns. Your favorite one-stop shop just became even better</p>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="icon_box1">
-            <div class="icon_box_image1"><img src="images/icon_2.svg" alt=""></div>
-            <div class="icon_box_title">Free Returns</div>
-            <p class="lead1"> All product(s) are eligible for Free Returns.<br>
-              No minimum purchase is required to receive Free Returns.</p>
+          <div class="col-md-4">
+            <div class="icon_box1">
+              <div class="icon_box_image1"><img src="images/icon_2.svg" alt=""></div>
+              <div class="icon_box_title">Free Returns</div>
+              <p class="lead1"> All product(s) are eligible for Free Returns.<br>
+                No minimum purchase is required to receive Free Returns.</p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="icon_box2">
-            <div class="icon_box_image2"><img src="images/icon_3.svg" alt=""></div>
-            <div class="icon_box_title">24h Fast Support</div>
-            <p class="lead2"> support service are provided 24 hours a day and 7 days a week. This includes an array of
-              IT services – like service monitoring, call center support, delivery support and so on ensuring that our
-              services are running without disruption and downtime.</p>
+          <div class="col-md-4">
+            <div class="icon_box2">
+              <div class="icon_box_image2"><img src="images/icon_3.svg" alt=""></div>
+              <div class="icon_box_title">24h Fast Support</div>
+              <p class="lead2"> support service are provided 24 hours a day and 7 days a week. This includes an array of
+                IT services – like service monitoring, call center support, delivery support and so on ensuring that our
+                services are running without disruption and downtime.</p>
+            </div>
           </div>
-        </div>
+        
       </div>
     </div>
+  </div>
+  <!--About Us-->
+  <div id="about-us">
+    <h1>About Us</h1>
+    <p><b>Ever bought something at a store and found the exact same item for a lower price at a different store?</b>
+    </p>
+    <p>Well Allshop is all about it!</p>
+    <p>Here at Allshop we create a platform to view prices at different stores, of a similar item.<br /> We provide
+      comparison, accessibilty, and updates on Sale offers and New arrivals.</p>
+    <p>Let us be your Digital Cart to help you shop right!</p>
   </div>
   <!--contact-->
   <div class="contact" id="contact">
@@ -150,13 +290,9 @@
         <div class="row">
           <div class="col-md-8 contact_col">
             <div class="get_in_touch">
-<<<<<<< HEAD
-              <div class="section_title"><h2>Get in Touch📝</h2></div>
-=======
               <div class="section_title">
                 <h2>Get in Touch📝</h2>
               </div>
->>>>>>> bf6d70267227727fcac97cafbd2dd68b3193ca60
               <div class="section_subtitle"></div>
               <div class="contact_form_container">
                 <form action="#" id="contact_form" class="contact_form">
@@ -211,32 +347,34 @@
     </div>
   </div>
   <!--   footer   -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="footer_content">
-            <span class="footer_logo"><a href="#"> Allshop™</a></span>
-            <div class="copyright">
-              Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script>
-              <div class="footer_social ml-md-auto">
-                <ul>
-                  <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </footer>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer_content">
+							<span class="footer_logo"><a href="#"> Allshop™</a></span>
+							<div class="copyright">
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+							<div class="footer_social ml-md-auto">
+								<ul>
+									<li><a href="https://www.pinterest.com"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
   </div>
+  <script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=site:http://127.0.0.1:5500/index.html?' + document.getElementById('txtSearch').value;
+        return false;
+    }
+</script>
 </body>
-<<<<<<< HEAD
-=======
-
->>>>>>> bf6d70267227727fcac97cafbd2dd68b3193ca60
 </html>

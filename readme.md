@@ -2,30 +2,46 @@
 ## Authors
 * Keith
 * Abel
-* zack
-* Achraf
+* Zach
+* Ashraf
 ## Description
+
 An online shop that helps buyers make informed shopping decisions on items by comparing the prices of a product sold by various vendors and getting the items delivered to them conveniently.
+
 ## Project setup instructions
+
 To start using this project use the following commands:
-* git clone 
-* cd 
-* code .
+
+- git clone https://github.com/nook7466/Allshop.git
+- cd Allshop
+- code .
+
 ## Text Editor
-* Atom
+* Code.
 ## Technologies Used
-* HTML
-* CSS
-* Javascript
-* Boot-strap
+
+- HTML
+- CSS
+- Javascript
+- Boot-strap
+
 ## Support and contact details
+
+Emails: 
+* keithomware@gmail.com
+* zachnjuguna@gmail.com
+* abelberhane011@gmail.com
+* ahmadashraf159@gmail.com
 
 ## Link to live site
 
+* https://nook7466.github.io/Allshop/
+
 ## License info
+
 MIT License
 
-Copyright (c) 2019 
+Copyright (c) 2019
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
